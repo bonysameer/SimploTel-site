@@ -1,0 +1,343 @@
+
+.navbar{
+   background-color: #fff;
+   font-family: 'Roboto Serif', serif;
+   font-weight: 600;
+}
+.firstDiv{
+   text-align: center;
+   display: grid;
+   grid-template-columns: 4fr 4fr 4fr 4fr 4fr 4fr 1fr;
+   font-size: 1.2em;
+   letter-spacing: 4px;
+   padding: 15px;   
+}
+.subdiv{
+   display: flex;
+   justify-content: space-evenly;
+}
+.main-img{
+   height: 100vh;
+   width: 100%;
+}
+h1{
+   font-family:  'Roboto Serif', serif;
+   letter-spacing: 4px;
+}
+h2{
+   color: #fff;
+   font-size: 2.3rem;
+   margin-left: 30px;
+}
+.content{
+   background-color: rgba(255, 137, 137, 0.5 );
+   color: #fff;
+   height: 28vh;
+   width: 35vw;
+   position: relative;
+   bottom: 590px;
+   left: 80px;
+   padding: 10px;   
+}
+.description{
+   margin-left: 30px;
+   font-size: 15px;
+}
+.border{
+   width: 100%;
+   height: 10vh;
+   background-image: linear-gradient(to right, #FF52A2 , #FF9B9B,#E8A9A9, #F4D160, #F0DE36);
+   position: relative;
+   bottom:230px;
+}
+
+.second-div{
+   height: 115vh;
+   width: 100%;
+   background-image: linear-gradient(to right, #FF52A2 , #FF9B9B,#E8A9A9, #F4D160, #F0DE36);
+   position: relative;
+   bottom: 250px;
+}
+h1{
+   text-align: center;
+   color: #fff;
+   padding: 10px;
+   font-size: 3em;
+}
+.main{
+   border-spacing: 75px;
+   margin-left: 95px;
+}
+.firstImg{
+   text-align: center;
+   border: 2px solid #fff;
+   border-radius: 0 40px 0 80px;
+   height: 60vh;
+   width: 20vw;
+   background-color: #fff;
+}
+.content-image{
+   border-radius: 0 40px 0 0;
+   margin-top: -130px;
+   height: 35vh;
+   width: 17vw;
+}
+.dish-name{
+   font-family: 'Lato', sans-serif;
+   font-size: 1.5rem;
+   position: relative;
+   bottom: 200px;
+}
+.dish-discription{
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   position: relative;
+   bottom: 250px;
+}
+.last-div{
+   text-align: center;
+}
+.btn{
+   padding: 10px;
+   text-align: center;
+   border-radius: 20px 20px 20px 20px;
+   border-style: none;
+   position: relative;
+   bottom: 210px;
+   width: 8vw;
+   font-size: 1.2em;
+   font-weight: bold;
+}
+footer{
+   text-align: center;
+}
+
+/* MEDIA-QUERY */
+
+
+@media(max-width:1056px){
+   .firstDiv{
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+   }
+}
+@media(max-width:760px){
+   .main-img{
+      height: 100vh;
+      width: 100%;
+      position: relative;
+   }
+}
+@media(max-width:830px) {
+   .content{
+      position: relative;
+      bottom: 600px;
+      font-size: 10px;
+      height: 30vh;
+      width: 50vw;
+   }
+}
+@media(max-width:576px){
+   .content{
+      position: relative;
+      bottom: 600px;
+      height: 50vh;
+      width: 50vw;
+   }
+}
+@media(max-width:761px){
+   .border{
+      position: relative;
+      top: -220px;
+      width: 100%;
+   }
+}
+@media(max-width:576px){
+   .border{
+      position: relative;
+      top: -350px;
+   }
+}
+@media(max-width:760px){
+   .second-div{
+      position: absolute;
+      top: 830px;
+   }
+}
+@media(max-width:760px){
+   .dish-discription{
+      font-size: 10px;
+   }
+}
+@media(max-width:760px){
+   .btn{
+      width: 15vw;
+   }
+}
+/* @media(max-width:752px){ */
+   /* .firstImg,.content-image,h1{ */
+      /* display: flex; */
+      /* flex-direction: row; */
+      /* height: 25vh; */
+      /* width: 25vw; */
+      /* font-size: 1.5em; */
+      /* position: relative; */
+      /* bottom: 180px; */
+   /* } */
+/* } */
+/* @media(max-width:752px){ */
+   /* .firstImg{ */
+      /* position: relative; */
+      /* bottom: 50px; */
+      /* height: 40vh; */
+   /* } */
+/* } */
+/*  */
+@media(max-width:752px){
+   .content-image{
+      height: 20vh;
+      width: 15vw;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      bottom: 3px;
+   
+      
+   }
+}
+@media(max-width:752px){
+   .firstImg{
+      height:40vh;
+      width: 30vw;
+      font-size: 1.4em;
+      text-align: center;
+      position: relative;
+      bottom: 100px;
+      right: 40px;
+   }
+}
+@media(max-width:752px){
+   .dish-name{
+      position: relative;
+      bottom: 220px;
+   }
+}
+@media(max-width:752px){
+   .dish-name{
+      position: relative;
+      bottom: 500px;
+      right: 50px;
+      font-size: 1rem;
+   }
+}
+@media(max-width:752px){
+   .dish-discription{
+      position: relative;
+      bottom: 350px;
+      right: 40px;
+   }
+}
+@media(max-width:583px){
+   .firstImg{
+   height:40vh;
+   width: 30vw;
+   font-size: 1.4em;
+   text-align: center;
+   position: relative;
+   bottom: 100px;
+   right: 50px;
+   }
+}
+@media(max-width:583px){
+   .dish-name{
+      position: relative;
+      bottom: 290px;
+      right: 100px;
+      font-size: 1rem;
+   }
+}
+@media(max-width:583px){
+   .dish-discription{
+      position: relative;
+      bottom: 350px;
+      right: 100px;
+   }
+}
+@media(max-width:583px){
+   .firstImg{
+   height:40vh;
+   width: 30vw;
+   font-size: 1.4em;
+   text-align: center;
+   position: relative;
+   bottom: 100px;
+   right: 160px;
+   }
+}
+@media(max-width:583px){
+   .dish-name{
+      position: relative;
+      bottom: 270px;
+      right: 180px;
+      font-size: 1rem;
+   }
+}
+@media(max-width:583px){
+   .dish-discription{
+      position: relative;
+      bottom: 350px;
+      right: 170px;
+      font-size: 0.3em;
+   }
+}
+@media(max-width:342){
+   .btn{
+      font-size: 1.3em;
+   }
+}
+@media(max-width:864px){
+   .dish-discription{
+      position: relative;
+      right: 10px;
+      bottom: 285px;
+      font-size: 0.8rem;
+   }
+}
+@media(max-width:864px){
+   .dish-name{
+      position: relative;
+      right: 10px;
+      bottom: 225px;
+   }
+}
+@media(max-width:752px){
+   .dish-name{
+      position: relative;
+      bottom: 300px;
+      right: 30px;
+   }
+}
+@media(max-width:752px){
+   .dish-discription{
+      position: relative;
+      bottom: 350px;
+      right: 30px;
+   }
+}
+@media(max-width:581px){
+   .dish-discription{
+      position: relative;
+      right: 160px;
+      bottom: 370px;
+      font-size: 10px;
+   }
+}
+@media(max-width:581px){
+   .dish-name{
+      position: relative;
+      right: 160px;
+      
+   }
+}
